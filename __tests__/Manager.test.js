@@ -13,4 +13,4 @@ test('get office number function returns office number', () => {
     const officeNum = 4321
     const e = new Manager('Jun', 123, 'test@testmail.com', officeNum);
     expect(e.getOfficeNumber()).toBe(officeNum);
-})
+});
