@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/cullinans1/team-profile-gen#readme",
   "dependencies": {
-    "inquirer": "^7.3.3"
+    "inquirer": "^7.3.3",
+    "jest": "^26.2.2"
   }
 }
