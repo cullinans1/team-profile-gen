@@ -19,7 +19,7 @@ const generateTeam = team => {
         </div>
         `;
     };
-    const GenerateEngineer = engineer => {
+    const generateEngineer = engineer => {
         return `
         <div class='card employee'>
             <div class='card-header'>
@@ -29,8 +29,8 @@ const generateTeam = team => {
             <div class='card-body'>
                 <ul class='list-group'>
                     <li class='list-group-item'>ID: ${engineer.getId()}</li>
-                    <li class='list-group-item'>Email: ${manager.getEmail()}</li>
-                    <li class='list-group-item'>GitHub: <a href='https://github.com/${engineer.getGithub()}' target='_blank'>${engineer.getGithub()}</li>
+                    <li class='list-group-item'>Email: ${engineer.getEmail()}</li>
+                    <li class='list-group-item'>GitHub: <a href='https://github.com/${engineer.getGithub()}' target='_blank'>${engineer.getGithub()}</a></li>
                 </ul>
             </div>
         </div>
@@ -46,7 +46,7 @@ const generateTeam = team => {
             <div class='card-body'>
                 <ul class='list-group'>
                     <li class='list-group-item'>ID: ${intern.getId()}</li>
-                    <li class='list-group-item'>Email: ${manager.getEmail()}</li>
+                    <li class='list-group-item'>Email: ${intern.getEmail()}</li>
                     <li class='list-group-item'>School: ${intern.getSchool()}</li>
                 </ul>
             </div>
