@@ -1,0 +1,22 @@
+.my-team {
+    background-color: #17223b;
+    color: white;
+}
+.card-header {
+    background-color: #ff6768;
+    color: white;
+}
+.employee {
+    margin: 1em;
+    max-width: 280px;
+    width: 90%;
+    background-color: #6b778d;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.7);
+    border: none;
+}
+.list-group-item {
+    color: black;
+}
