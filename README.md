@@ -22,6 +22,8 @@
   ## Testing
 
   Here is the link to the demo video https://drive.google.com/file/d/1wz-K3K0KeV_Ly3mvX8rnYfFh4RF9n2T_/view
+  
+  Example HTML created with app: https://cullinans1.github.io/team-profile-gen/
 
   ## Questions?
 
